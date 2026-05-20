@@ -26,5 +26,12 @@ Phishing attacks are evolving. Traditional methods (blacklists, regex, or text-o
 ##  Publication
 Published in *Journal of Computing & Biomedical Informatics*, Vol. 9, Issue 1, 2025.
 
-##  Visualizations
-See uploaded images: `confusion_matrix.png` & `performance_graph.png`
+##  Results Visualizations
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### Model Comparison
+![Performance Graph](performance_graph.png)
+
+*Figures generated from test set evaluation (82,500 emails). Hybrid DistilBERT achieves 99.1% accuracy, outperforming classical baselines by 4.3%.*
